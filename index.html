@@ -7,29 +7,43 @@
 </head>
 <body>
     <div id="container">
-        <div class="small-box">
-            <div class="button 1">1</div>
-            <div class="button 2">2</div>
-            <div class="button 3">3</div>
-            <div class="button 4">4</div>
+
+        <div class="nav-bar">
+            <div class="tolur"><h2>Nýustu tölur</h2></div>
+            <div class="tolfradi"><h2>Tölfræði</h2></div>
         </div>
         <div class="box">
-            <div class="num-display">
-                <h1>Lottó</h1>
-                <h2 id="lotto"></h2>
+            <div class="button-big lotto-lotto">Lottó</div>
+            <div class="button-big lotto-vklotto">Víkinga lottó</div>
+            <div class="button-big lotto-ej">Euro Jackpot</div>
+        </div>
+        <br><br>
+        <div class="lotto-tolur">
+            <div class="small-box">
+                <div class="button 1 active">1</div>
+                <div class="button 2">2</div>
+                <div class="button 3">3</div>
+                <div class="button 4">4</div>
+            </div>
+            <br><br>
+            <div class="box">
+                <div class="num-display">
+                    <h1 class="lotto-name"></h1>
+                    <h2 class="lotto-date line"></h2>
+                    <h2 class="lotto line"></h2>
+                    <h2 class="lotto-joker line"></h2>
+                    <h2 class="lotto-prize "></h2>
+                </div>
             </div>
         </div>
-        <div class="box">
-            <div class="num-display">
-                <h1>Víkingalottó</h1>
-                <h2 id="vkLotto"></h2>
-            </div>
-        </div>
-        <div class="box">
-            <div class="num-display">
-                <h1>EuroJackpot</h1>
-                <h2 id="euroJackpot"></h2>
-            </div>
+        <div class="lotto-tolfradi hide">
+            <div class="box">
+                <h2>Sláðu inn þínar tölur</h2>
+                <div class="user-numbers">
+                </div>
+                <div class="results"></div>
+            </>
+
         </div>
     </div>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
