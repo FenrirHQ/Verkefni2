@@ -22,12 +22,14 @@ body{
     width: 49%;
     float: left;
     border-right: solid gray;
+    cursor: pointer;
 }
 .tolfradi{
     text-align: center;
     color: white;
     width: 49%;
     float: right;
+    cursor: pointer;
 }
 .box{
     width: 900px;
@@ -136,6 +138,9 @@ body{
 
 .hide{
     display: none;
+}
+.user-numbers{
+    padding-bottom: 10px;e
 }
 input[type="text"]
 {
